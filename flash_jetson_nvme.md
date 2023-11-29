@@ -43,8 +43,8 @@ These scripts are in  `~/nvidia/nvidia_sdk/<JetPack_*version*>/Linux_for_Tegra/t
 	  This size cannot be bigger than "num_sectors" * "sector_size" specified in the <external-partition-layout> \
 	  (512110190592 bytes = 512GB = 476GiB)
 - `jetson-xavier-nx-devkit-emmc`
-	: `<board-name>` [Board Name Table](https://files.seeedstudio.com/wiki/A20X/6.png)
+	- `<board-name>` [Board Name Table](https://files.seeedstudio.com/wiki/A20X/6.png)
 - `nvme0n1p1`
-	: `<rootdev>` can be set to `"mmcblk0p1"` or `"internal"` for booting from internal \
+	- `<rootdev>` can be set to `"mmcblk0p1"` or `"internal"` for booting from internal \
 	  device or `"external"`, `"sda1"` or `"nvme0n1p1"` for booting from external device
 
