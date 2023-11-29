@@ -2,7 +2,7 @@
 
 ## Setup
 These scripts are in  ~/nvidia/nvidia_sdk/<JetPack_*version*>/Linux_for_Tegra/tools/kernel_flash/ after installing SDK manager
-- ## Dependencies
+- Dependencies
 ```
 cd ~/nvidia/nvidia_sdk/<JetPack_*version*>/Linux_for_Tegra/
 sudo tools/l4t_flash_prerequisites.sh
