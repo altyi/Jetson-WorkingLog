@@ -30,7 +30,7 @@ These scripts are in  `~/nvidia/nvidia_sdk/<JetPack_*version*>/Linux_for_Tegra/t
 
 ## Arguments in Step 5
 - ADDITIONAL_DTB_OVERLAY_OPT="BootOrderNvme.dtbo"
-	: boot from NVME
+	boot from NVME
 - --external-device nvme0n1p1
 	: is the name of the external storage device you want to flash as it appears in the '/dev/' folder
 	  (i.e nvme0n1, sda)
