@@ -8,7 +8,7 @@ These scripts are in  `~/nvidia/nvidia_sdk/<JetPack_*version*>/Linux_for_Tegra/t
   sudo tools/l4t_flash_prerequisites.sh
   ```
 - Modify `flash_l4t_nvme.xml` 
-  - `NUM_SECTORS` = size of nvme / sector_size
+  - `NUM_SECTORS` = size of nvme / `sector_size`
   ```
   - <device type="external" instance="0" sector_size="512" num_sectors="NUM_SECTORS"> to
   - <device type="external" instance="0" sector_size="512" num_sectors="1000215216"> 
