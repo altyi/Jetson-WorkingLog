@@ -48,3 +48,6 @@ These scripts are in  `~/nvidia/nvidia_sdk/<JetPack_*version*>/Linux_for_Tegra/t
 	- `<rootdev>` can be set to `"mmcblk0p1"` or `"internal"` for booting from internal \
 	  device or `"external"`, `"sda1"` or `"nvme0n1p1"` for booting from external device
 
+
+ Taken from /tools/kernel_flash/README_initrd_flash.txt (Workflow 3: How to flash to an external storage)
+
