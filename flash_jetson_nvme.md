@@ -29,7 +29,6 @@ These scripts are in  `~/nvidia/nvidia_sdk/<JetPack_*version*>/Linux_for_Tegra/t
 7. Connect hdmi to jetson and complete the setup
 
 ## Arguments in Step 5
-```
 > ADDITIONAL_DTB_OVERLAY_OPT="BootOrderNvme.dtbo"
 	: boot from NVME
 > --external-device nvme0n1p1
@@ -49,5 +48,4 @@ These scripts are in  `~/nvidia/nvidia_sdk/<JetPack_*version*>/Linux_for_Tegra/t
 > nvme0n1p1
 	: <rootdev> can be set to "mmcblk0p1" or "internal" for booting from internal
 	  device or "external", "sda1" or "nvme0n1p1" for booting from external device
-```
 
