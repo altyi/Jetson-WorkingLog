@@ -1,7 +1,7 @@
 # Flashing Jetson with initrd
 
 ## Setup
-These scripts are in  ~/nvidia/nvidia_sdk/<JetPack_*version*>/Linux_for_Tegra/tools/kernel_flash/ after installing SDK manager
+These scripts are in  `~/nvidia/nvidia_sdk/<JetPack_*version*>/Linux_for_Tegra/tools/kernel_flash/` after installing SDK manager
 - Dependencies
 ```
 cd ~/nvidia/nvidia_sdk/<JetPack_*version*>/Linux_for_Tegra/
