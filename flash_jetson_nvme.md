@@ -33,7 +33,8 @@ These scripts are in  `~/nvidia/nvidia_sdk/<JetPack_*version*>/Linux_for_Tegra/t
 > ADDITIONAL_DTB_OVERLAY_OPT="BootOrderNvme.dtbo"
 	: boot from NVME
 > --external-device nvme0n1p1
-	: is the name of the external storage device you want to flash as it appears in the '/dev/' folder (i.e nvme0n1, sda)
+	: is the name of the external storage device you want to flash as it appears in the '/dev/' folder
+	  (i.e nvme0n1, sda)
 > -c ./tools/kernel_flash/flash_l4t_nvme.xml 
 	: -c <external-partition-layout> is the partition layout for the external storage device in XML format
 > --external-only 
@@ -42,9 +43,9 @@ These scripts are in  `~/nvidia/nvidia_sdk/<JetPack_*version*>/Linux_for_Tegra/t
 	: -S <APP-size> the size of the partition that contains the operating system in bytes. 
 	  KiB, MiB, GiB shorthand are allowed, for example, 1GiB means 1024 * 1024 * 1024 bytes. 
 	  This size cannot be bigger than "num_sectors" * "sector_size" specified in the <external-partition-layout>
-	  (512110190592 bytes = 512GB = 476GiB )
+	  (512110190592 bytes = 512GB = 476GiB)
 > jetson-xavier-nx-devkit-emmc
-	: <board-name> https://files.seeedstudio.com/wiki/A20X/6.png
+	: <board-name> [Board Name Table]([https://link-url-here.org](https://files.seeedstudio.com/wiki/A20X/6.png))
 > nvme0n1p1
 	: <rootdev> can be set to "mmcblk0p1" or "internal" for booting from internal
 	  device or "external", "sda1" or "nvme0n1p1" for booting from external device
