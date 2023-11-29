@@ -9,11 +9,10 @@ These scripts are in  `~/nvidia/nvidia_sdk/<JetPack_*version*>/Linux_for_Tegra/t
   ```
 - Modify `flash_l4t_nvme.xml` 
   - `NUM_SECTORS` = size of nvme / `sector_size`
-  ```
-  - <device type="external" instance="0" sector_size="512" num_sectors="NUM_SECTORS"> to
-  - <device type="external" instance="0" sector_size="512" num_sectors="1000215216"> 
-  - size of nvme = sector_size * num_sectors = 512 * 1000215216 = 512110190592 bytes
-  ```
+  - Change `<device type="external" instance="0" sector_size="512" num_sectors="NUM_SECTORS">` to \
+    `<device type="external" instance="0" sector_size="512" num_sectors="1000215216"> `
+  - size of nvme = `sector_size` * `num_sectors` = 512 * 1000215216 = 512110190592 bytes
+
 ## Flash Steps 
 1. Put Jetson in Force Recovery Mode (Jump pin 3 and 4 on seeed studio A203 v2 board 14 pins connector)
 2. Connect to host computer via micro usb on the carrier board
