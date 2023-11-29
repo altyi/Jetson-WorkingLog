@@ -29,7 +29,7 @@ These scripts are in  `~/nvidia/nvidia_sdk/<JetPack_*version*>/Linux_for_Tegra/t
 7. Connect hdmi to jetson and complete the setup
 
 ## Arguments in Step 5
-> ADDITIONAL_DTB_OVERLAY_OPT="BootOrderNvme.dtbo"
+- ADDITIONAL_DTB_OVERLAY_OPT="BootOrderNvme.dtbo"
 	: boot from NVME
 > --external-device nvme0n1p1
 	: is the name of the external storage device you want to flash as it appears in the '/dev/' folder
@@ -44,7 +44,7 @@ These scripts are in  `~/nvidia/nvidia_sdk/<JetPack_*version*>/Linux_for_Tegra/t
 	  This size cannot be bigger than "num_sectors" * "sector_size" specified in the <external-partition-layout>
 	  (512110190592 bytes = 512GB = 476GiB)
 > jetson-xavier-nx-devkit-emmc
-	: <board-name> [Board Name Table]([https://link-url-here.org](https://files.seeedstudio.com/wiki/A20X/6.png))
+	: <board-name> [Board Name Table](https://files.seeedstudio.com/wiki/A20X/6.png)
 > nvme0n1p1
 	: <rootdev> can be set to "mmcblk0p1" or "internal" for booting from internal
 	  device or "external", "sda1" or "nvme0n1p1" for booting from external device
