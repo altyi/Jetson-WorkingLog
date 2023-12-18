@@ -13,10 +13,10 @@
     - `sudo systemctl suspend`
 
 ## Host
-- #### Ping and SSH to see the response
-- #### Install wakeonlan
+- Ping and SSH to see the response
+- Install wakeonlan
   - `sudo apt-get install wakeonlan`
-- #### WOL (Try below, not sure which one works)
+- WOL (Try below, not sure which one works)
   - `wakeonline -i` or
   - `wakeonlan <mac-address>` or
   - `wakeonlan -i <broadcast-address> <mac-address>`
