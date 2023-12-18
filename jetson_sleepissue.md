@@ -5,5 +5,5 @@
 - `ifconfig | grep -i hwaddr`
 
 ## Test Wake on LAN
-- ### Put Jetson into Sleep
-  - a 
+- ### Put Jetson into Sleep State (Deep Sleep (SC7))
+  - `sudo systemctl suspend`
