@@ -16,8 +16,9 @@
 - Ping and SSH to see the response
 - #### Install wakeonlan
   - `sudo apt-get install wakeonlan`
-- #### WOL
-  - `wakeonline -i` 
+- #### WOL (Try below, not sure which one works)
+  - `wakeonline -i` or
+  - `wakeonlan <mac-address>` or
   - `wakeonlan -i <broadcast-address> <mac-address>`
 
 
