@@ -2,4 +2,4 @@
 
 ## Get MAC address
 - SSH into Jetson
-- 'ifconfig | grep -i hwaddr'
+- `ifconfig | grep -i hwaddr`
