@@ -1,4 +1,4 @@
-# Jetson SleepIssue Testing
+# Jetson Sleep Issue Testing
 
 ## Jetson
 - #### Get MAC address
