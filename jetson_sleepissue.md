@@ -13,7 +13,7 @@
     - `sudo systemctl suspend`
 
 ## Host
-- Ping and SSH to see the response
+- #### Ping and SSH to see the response
 - #### Install wakeonlan
   - `sudo apt-get install wakeonlan`
 - #### WOL (Try below, not sure which one works)
