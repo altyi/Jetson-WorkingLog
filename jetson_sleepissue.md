@@ -7,7 +7,7 @@
 - #### Wake on LAN (WOL)
   - Check WOL Status
     - `ethtool eth0|grep -i wake` 
-  - Enable WOL ####(Jetson)
+  - Enable WOL
     - `sudo ethtool -s eth0 wol g`
   - Put Jetson into Sleep State (Deep Sleep (SC7))
     - `sudo systemctl suspend`
